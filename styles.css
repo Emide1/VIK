@@ -1,0 +1,162 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif; /* Modern, clean font */
+}
+
+body {
+    background-color: #1b1b1b; /* Black base */
+    color: #f5f5f5; /* Soft white text */
+    line-height: 1.8;
+}
+
+a {
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #a020f0; /* Purple hover effect */
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2a2a2a; /* Deep grey */
+    padding: 20px 40px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header .logo {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #a020f0; /* Purple for the logo */
+}
+
+header .logo .accent {
+    color: #ff2400; /* Scarlet red complement */
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+header nav ul li a {
+    color: #f5f5f5;
+    font-weight: 500;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    background: linear-gradient(135deg, #3e3e3e, #1b1b1b); /* Smooth gradient */
+    padding: 150px 20px;
+}
+
+.hero h1 {
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+.hero p {
+    margin-bottom: 30px;
+    font-size: 1.2rem;
+    color: #cccccc;
+}
+
+.hero .btn {
+    background: #a020f0; /* Purple button */
+    color: #fff;
+    padding: 15px 30px;
+    border-radius: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+.hero .btn:hover {
+    background: #7a08b5; /* Slightly darker purple */
+}
+
+/* Products Section */
+#products {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #2a2a2a; /* Subtle grey */
+}
+
+#products h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+#products p {
+    margin-bottom: 40px;
+    color: #cccccc;
+}
+
+.product-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.product {
+    background: #1e1e1e; /* Dark grey */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.product h3 {
+    font-size: 1.2rem;
+    color: #a020f0; /* Purple for product titles */
+    margin-bottom: 10px;
+}
+
+.product p {
+    font-size: 1rem;
+    color: #fff; /* Soft white for prices */
+}
+
+.product:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* About Section */
+#about {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #1b1b1b; /* Black */
+}
+
+#about h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+#about p {
+    color: #cccccc;
+    max-width: 700px;
+    margin: 
